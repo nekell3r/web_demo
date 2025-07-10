@@ -77,6 +77,25 @@
         <img src="../../assets/img/злой рус.png" class="zloy" alt="Злой Русский">
     </footer>
 
-    <script src="../../assets/js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+  const buttons = document.querySelectorAll('.expand-btn');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', function() {
+      const targetId = this.getAttribute('data-target');
+      const content = document.getElementById(targetId);
+
+      if (!content) {
+        console.error('Элемент с id="' + targetId + '" не найден!');
+        return;
+      }
+
+      content.classList.toggle('active');
+    });
+  });
+});
+
+    </script>
 </body>
 </html>
