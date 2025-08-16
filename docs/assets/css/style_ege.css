@@ -1,12 +1,12 @@
 .cost {
     padding: 15px;
-    color: #e42b9a;
+    color: #000000;
     min-width: 250px;
     display: flex;
     justify-content: center;
 }
 .materials_ege {
-    color: #e42b9a;
+    color: #000000;
     text-align: center;
     min-width: 250px;
 }
