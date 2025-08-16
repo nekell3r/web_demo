@@ -5,7 +5,84 @@
     display: flex;
     justify-content: center;
 }
-  .text_and_over-line {
+.materials_oge {
+    color: #e42b9a;
+    text-align: center;
+    min-width: 250px;
+}
+.text_oge {
     position: relative;
-    margin-top: 20px;  /* Отступ от предыдущего элемента */
+    max-width: 1200px;
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+.text_and_over-line {
+    position: relative;
+    margin-top: 20px;
+}
+.text_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 768px) {
+    .text_oge {
+        width: 95%;
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+    
+    .text_oge h3 {
+        text-align: left;
+        line-height: 1.4;
+    }
+    .text_oge h4 {
+        text-align: left;
+        line-height: 1.4;
+    }
+    .text_oge h5 {
+        text-align: left;
+        line-height: 1.4;
+    }
+}
+
+/* Стили для контейнеров с текстом */
+div[style*="text-align: center"],
+div[style*="text-align:center"] {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Адаптивность для блоков с центрированным текстом */
+@media (max-width: 768px) {
+    div[style*="text-align: center"],
+    div[style*="text-align:center"] {
+        padding: 0 15px;
+        text-align: left !important;
+    }
+    
+    div[style*="text-align: center"] h3,
+    div[style*="text-align:center"] h3 {
+        text-align: left !important;
+        line-height: 1.4;
+    }
+    
+    div[style*="text-align: center"] h2,
+    div[style*="text-align:center"] h2 {
+        text-align: center !important;
+    }
+    
+    /* Добавляем отступы для основного контента на мобильных */
+    body {
+        padding: 0 10px;
+    }
 }
