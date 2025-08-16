@@ -6,6 +6,14 @@
     display: flex;
     justify-content: center;
 }
+.text_ege {
+    position: relative;
+    max-width: 1200px;
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 0 20px;
+}
 .text_ege_under {
     padding-bottom: 40px;
     width: 100%; 
@@ -42,6 +50,17 @@
 }
 /* Адаптивность для мобильных устройств */
 @media (max-width: 768px) {
+    .text_ege {
+        width: 95%;
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+    
+    .text_ege h3 {
+        text-align: left;
+        line-height: 1.4;
+    }
+    
     /* Основные заголовки на мобильных */
     h1 {
         text-align: center !important;
