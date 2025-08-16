@@ -36,14 +36,9 @@
     width: 100%;
     cursor: pointer;
     gap: 5px;
-    transition: background-color 0.2s ease;
     border-radius: 8px;
     padding: 5px;
     margin: -5px;
-}
-
-.question-container:hover {
-    background-color: rgba(218, 25, 132, 0.1);
 }
 
 .support-text {
@@ -72,8 +67,8 @@
 }
 
 .expand-btn {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background: none;
     color: white;
     border: none;
@@ -87,6 +82,14 @@
     transition: all 0.3s ease;
     padding: 0;
     flex-shrink: 0;
+}
+
+/* Для мобильных устройств - оставляем меньший размер */
+@media (max-width: 768px) {
+    .expand-btn {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .expand-btn img.toggle-icon {
