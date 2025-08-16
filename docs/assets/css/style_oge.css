@@ -54,6 +54,15 @@
     }
 }
 
+/* Стили для изображений работ */
+.work_note {
+    border: 2px solid #000000; /* Черная граница */
+}
+
+.one_instance {
+    border: 2px solid #000000; /* Черная граница */
+}
+
 /* Стили для контейнеров с текстом */
 div[style*="text-align: center"],
 div[style*="text-align:center"] {

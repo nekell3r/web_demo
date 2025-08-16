@@ -29,6 +29,7 @@
     width: 800px;
     height: auto;
     border-radius: 7%;
+    border: 2px solid #000000; /* Черная граница */
 }
 .one_instance {
     display: flex;
@@ -36,6 +37,7 @@
     width: 800px;
     height: auto;
     border-radius: 3%;
+    border: 2px solid #000000; /* Черная граница */
 }
 .text_container {
     display: flex;

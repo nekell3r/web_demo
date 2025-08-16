@@ -180,6 +180,7 @@ b {
     margin-bottom: 15px;
     border-radius: 6%;     /* Скругленные углы */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Тень для картинок */
+    border: 2px solid #000000; /* Черная граница */
   }
 
   
@@ -266,6 +267,8 @@ b {
   img {
     margin: 0;
     width: 50px;
+    border: 2px solid #000000; /* Черная граница для всех изображений */
+    border-radius: 3%; /* Небольшие скругленные углы */
   }
 
   .zloy {
@@ -273,6 +276,7 @@ b {
     width: 140px;
     height: auto;
     border-radius: 3%;
+    border: 2px solid #000000; /* Черная граница */
   }
 
 
@@ -341,6 +345,8 @@ footer{
     flex: 1;
     margin: 20px;
     width: 500px; /* по умолчанию 500px */
+    border: 2px solid #000000; /* Черная граница */
+    border-radius: 6%; /* Скругленные углы для единообразия */
 }
 
 /* Когда колонки съезжают (на мобильных устройствах) */
