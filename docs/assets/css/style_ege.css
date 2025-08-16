@@ -6,6 +6,11 @@
     display: flex;
     justify-content: center;
 }
+.materials_ege {
+    color: #e42b9a;
+    text-align: center;
+    min-width: 250px;
+}
 .text_ege {
     position: relative;
     max-width: 1200px;
