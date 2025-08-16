@@ -1,4 +1,4 @@
-# MadRussian - Frontend
+# MadRussian - Образовательная платформа
 
 Фронтенд часть образовательной платформы для продажи материалов по русскому языку и литературе.
 
@@ -16,49 +16,36 @@ MadRussian — это современная образовательная пл
 ## Структура проекта
 
 ```
-frontend/
+/
 ├── assets/           # Статические ресурсы
-│   ├── css/         # Основные стили: style_basic.css, style_ege.css, style_oge.css, style_materials.css, style_questions.css
-│   ├── js/          # Основной JS: script.js
-│   └── img/         # Изображения для страниц и материалов
-├── pages/           # Страницы сайта
-│   ├── exams/       # Страницы экзаменов: ege.html, oge.html
-│   └── materials/   # Страницы материалов: list.html, questions.html
-└── index.html       # Главная страница
+│   ├── css/          # Стили: style_basic.css, style_ege.css, style_oge.css, style_materials.css, style_questions.css
+│   ├── fonts/        # Шрифты
+│   └── img/          # Изображения для страниц и материалов
+├── pages/            # Страницы сайта
+│   ├── exams/        # Страницы экзаменов: ege.html, oge.html
+│   └── materials/    # Страницы материалов: list.html, questions.html
+├── index.html        # Главная страница
+└── README.md         # Этот файл
 ```
 
 ## Технологии
 - HTML5
 - CSS3
-- JavaScript (ES6+)
-- jQuery 3.6.0
-- Адаптивный дизайн (Flexbox, media queries)
 
 ## Запуск проекта
 
-1. Убедитесь, что у вас установлен веб-сервер (например, Python's SimpleHTTPServer или Live Server в VS Code)
+1. Убедитесь, что у вас установлен Python или расширение Live Server в VS Code.
 
-2. Запуск с помощью Python:
-```bash
-cd frontend
-python -m http.server 8000
-```
+2. **Запуск с помощью Python:**
+   Откройте терминал в корневой папке проекта и выполните:
+   ```bash
+   python -m http.server 8000
+   ```
+   Затем откройте в браузере `http://localhost:8000`.
 
-3. Или используйте Live Server в VS Code:
-   - Установите расширение Live Server
-   - Правый клик по index.html
-   - Выберите "Open with Live Server"
-
-4. Откройте браузер и перейдите по адресу:
-   - http://localhost:8000 (для Python)
-   - http://localhost:5500 (для Live Server)
-
-## Разработка
-
-- Все статические файлы (css, js, изображения) размещаются в соответствующих подпапках assets/
-- Новые страницы добавляются в pages/exams/ или pages/materials/
-- Используйте относительные пути к ресурсам
-- Придерживайтесь единого стиля именования файлов и классов
+3. **Запуск с помощью Live Server в VS Code:**
+   - Установите расширение "Live Server".
+   - Откройте `index.html` и нажмите кнопку "Go Live" в правом нижнем углу редактора.
 
 ## Контакты
 
