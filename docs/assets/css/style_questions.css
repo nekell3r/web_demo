@@ -47,17 +47,10 @@
     min-width: 0;
 }
 
-.support-text h1 {
+.support-text h3 {
     font-size: 1.2em;
     color: white;
     margin: 0;
-}
-
-.support-text h3 {
-    position: relative;
-    margin-top: 0;
-    color: #DA1984;
-    font-size: 18px;
 }
 
 .support-text p {
