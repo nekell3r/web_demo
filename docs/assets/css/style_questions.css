@@ -48,9 +48,17 @@
 }
 
 .support-text h3 {
-    font-size: 1.2em;
+    font-size: 1.1rem;
+    color: #e42b9a;
+    margin: 0;
+    font-weight: bold;
+}
+
+.hidden-content h2 {
+    font-size: 1rem;
     color: white;
     margin: 0;
+    line-height: 1.4;
 }
 
 .support-text p {
@@ -146,6 +154,17 @@ div[style*="text-align:center"] {
     }
     .text_faq h5 {
         text-align: left;
+        line-height: 1.4;
+    }
+    
+    /* Адаптивные размеры для блоков FAQ на мобильных */
+    .support-text h3 {
+        font-size: 1rem !important;
+        line-height: 1.3;
+    }
+    
+    .hidden-content h2 {
+        font-size: 0.9rem !important;
         line-height: 1.4;
     }
 }
