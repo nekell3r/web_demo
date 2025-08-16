@@ -276,7 +276,7 @@ b {
     width: 140px;
     height: auto;
     border-radius: 3%;
-    border: 2px solid #000000; /* Черная граница */
+    border: none; /* Убираем границу для логотипа */
   }
 
 
