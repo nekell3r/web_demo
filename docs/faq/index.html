@@ -80,11 +80,12 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-  const buttons = document.querySelectorAll('.expand-btn');
+  const containers = document.querySelectorAll('.question-container');
 
-  buttons.forEach(button => {
-    button.addEventListener('click', function() {
-      const targetId = this.getAttribute('data-target');
+  containers.forEach(container => {
+    container.addEventListener('click', function() {
+      const button = this.querySelector('.expand-btn');
+      const targetId = button.getAttribute('data-target');
       const content = document.getElementById(targetId);
 
       if (!content) {

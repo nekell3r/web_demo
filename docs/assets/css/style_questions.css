@@ -36,6 +36,14 @@
     width: 100%;
     cursor: pointer;
     gap: 5px;
+    transition: background-color 0.2s ease;
+    border-radius: 8px;
+    padding: 5px;
+    margin: -5px;
+}
+
+.question-container:hover {
+    background-color: rgba(218, 25, 132, 0.1);
 }
 
 .support-text {
