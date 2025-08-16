@@ -59,6 +59,14 @@
         text-align: left;
         line-height: 1.4;
     }
+    .text_ege h4 {
+        text-align: left;
+        line-height: 1.4;
+    }
+    .text_ege h5 {
+        text-align: left;
+        line-height: 1.4;
+    }
 }
 
 /* Стили для контейнеров с текстом */
